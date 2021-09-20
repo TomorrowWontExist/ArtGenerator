@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // Hashlips you truly are amazing for accomplishing this ImageURI updater!!!
 
 const fs = require("fs");
 const path = require("path");
