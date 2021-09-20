@@ -1,20 +1,20 @@
 # Thank You HashLips 👄 Upgraded and Articulated by ScrawnyViking aka TWECryptoDev
 
-![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.png)
+![](https://gateway.pinata.cloud/ipfs/QmeQTg75CRKSVUTnMnRM2RyRrBQDYT6G6oxzR4xmWSEH1U)
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
 To find out more please visit:
 
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
+[📺 YouTube](https://www.youtube.com/channel/UCesmc1HdFKXqmNFZwT0M9GQ)
 
-[💬 Telegram](https://t.me/hashlipsnft)
+[💬 Telegram](https://t.me/TBCToken)
 
-[🐦 Twitter](https://twitter.com/hashlipsnft)
+[🐦 Twitter](https://twitter.com/TWECryptoDev)
 
-[ℹ️ Website](https://hashlips.online/HashLips)
+[ℹ️ Website](https://TomorrowWontExist.com)
 
-# HashLips Art Engine 🔥
+# ScrawnyViking A-Z How to Launch your own NFT Collection using HashLips Art Engine 🔥
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
 
