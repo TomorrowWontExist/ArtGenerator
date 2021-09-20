@@ -1,4 +1,4 @@
-# Welcome to HashLips 👄
+# Thank You HashLips 👄 Upgraded and Articulated by ScrawnyViking aka TWECryptoDev
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.png)
 
