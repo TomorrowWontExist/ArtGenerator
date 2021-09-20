@@ -14,10 +14,15 @@ To find out more please visit:
 
 [ℹ️ Website](https://TomorrowWontExist.com)
 
+[🐝 TBC Token Pre Sale NFTs](https://opensea.io/collection/tweethebee)
+
+![](https://gateway.pinata.cloud/ipfs/QmUvPLroxDvBoaGDrKh4qEYCTvfyK6hJduWrMwUUHF9Hor)
+
+[🐝 The Bee Collaborative rng NFT](https://tomorrowwontexist.github.io/tbcnft/)<p/> *Game and Roadmap Coming Soon*
+
 # ScrawnyViking A-Z How to Launch your own NFT Collection using HashLips Art Engine 🔥
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
-![](https://gateway.pinata.cloud/ipfs/QmUvPLroxDvBoaGDrKh4qEYCTvfyK6hJduWrMwUUHF9Hor)
 Create generative art by using the canvas api and node js. Before you use the generation engine, make sure you have node.js and yarn installed.
 
 ## Installation 🛠️
