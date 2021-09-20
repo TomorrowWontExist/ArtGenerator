@@ -82,8 +82,8 @@ const layersSetup = (layersOrder) => {
 
 const saveImage = (_editionCount) => {
   fs.writeFileSync(
-    `${buildDir}/images/${_editionCount}.png`,
-    canvas.toBuffer("image/png")
+    `${buildDir}/images/NameYourNFT #${_editionCount}.png`, // Wanna change name of your NFTs?
+    canvas.toBuffer("image/png") // Delete NameYourNFT # in order to have jsut the number be the name
   );
 };
 
@@ -184,7 +184,7 @@ const writeMetaData = (_data) => {
 
 const saveMetaDataSingleFile = (_editionCount) => {
   fs.writeFileSync(
-    `${buildDir}/json/${_editionCount}.json`,
+    `${buildDir}/json/NameYourNFT #${_editionCount}.json`, // Change name of NFT here as well so they all match
     JSON.stringify(
       metadataList.find((meta) => meta.edition == _editionCount),
       null,

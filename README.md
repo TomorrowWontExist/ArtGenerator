@@ -25,7 +25,7 @@ Create generative art by using the canvas api and node js. Before you use the ge
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/HashLips/hashlips_art_engine.git
+git clone https://github.com/TomorrowWontExist/MassiveRandomNFTGenerator
 ```
 
 Go to the root of your folder and run this command if you have yarn installed.
@@ -37,7 +37,7 @@ yarn install
 Alternatively you can run this command if you have node installed.
 
 ```sh
-npm install
+npm install // I prefer NPM over Yarn
 ```
 
 ## Usage ℹ️
@@ -51,13 +51,14 @@ _Example:_ If you were creating a portrait design, you might have a background, 
 ```js
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 10, // Example to show you the inifite amount of possibilities
     layersOrder: [
-      { name: "Head" },
-      { name: "Mouth" },
-      { name: "Eyes" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
+      { name: "1-background" },
+      { name: "2-extra" },
+      { name: "3-character" },
+      { name: "4-prop" },
+      { name: "5-expression" },
+      { name: "6-face" },
     ],
   },
 ];
@@ -72,31 +73,42 @@ _Example:_ If you were creating a portrait design, you might have a background, 
 ```js
 const layerConfigurations = [
   {
-    // Creates up to 50 artworks
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 10, // Example to show you the inifite amount of possibilities
     layersOrder: [
-      { name: "Background" },
-      { name: "Head" },
-      { name: "Mouth" },
-      { name: "Eyes" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
+      { name: "1-background" },
+      { name: "2-extra" },
+      { name: "3-character" },
+      { name: "4-prop" },
+      { name: "5-expression" },
+      { name: "6-face" },
     ],
   },
   {
-    // Creates an additional 100 artworks
-    growEditionSizeTo: 150,
+    growEditionSizeTo: 15, // 5 more like this, added eyewear
     layersOrder: [
-      { name: "Background" },
-      { name: "Head" },
-      { name: "Eyes" },
-      { name: "Mouth" },
-      { name: "Eyeswear" },
-      { name: "Headwear" },
-      { name: "AlienHeadwear" },
+      { name: "1-background" },
+      { name: "2-extra" },
+      { name: "3-character" },
+      { name: "4-prop" },
+      { name: "5-expression" },
+      { name: "6-face" },
+      { name: "7-eyewear" },
     ],
   },
-];
+  {
+    growEditionSizeTo: 25, // 10 more, added headpiece
+    layersOrder: [
+      { name: "1-background" },
+      { name: "2-extra" },
+      { name: "3-character" },
+      { name: "4-prop" },
+      { name: "5-expression" },
+      { name: "6-face" },
+      { name: "7-eyewear" },
+      { name: "8-headpiece" },
+    ],
+  },
+]; // Now you can go and rename the pngs to which ever number you want them to be, to make the order more mixed.
 ```
 
 Then optionally, update your `format` size, ie the outputted image size, and the `growEditionSizeTo` on each `layerConfigurations` object, which is the amount of variation outputted.
@@ -110,13 +122,13 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color", blend: MODE.colorBurn },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid", blend: MODE.overlay, opacity: 0.7 },
-      { name: "Top lid", opacity: 0.7 },
+      { name: "1-background" },
+      { name: "2-extra" },
+      { name: "3-character", blend: MODE.colorBurn },
+      { name: "4-prop" },
+      { name: "5-expression" },
+      { name: "6-face", blend: MODE.overlay, opacity: 0.7 },
+      { name: "7-eyewear", opacity: 0.7 },
     ],
   },
 ];
@@ -171,20 +183,37 @@ The program will output all the images in the `build/images` directory along wit
 
 ```json
 {
-  "dna": "d956cdf4e460508b5ff90c21974124f68d6edc34",
+  "dna": "614932c9807faa6f1db822bde13daa33b881c34a",
   "name": "#1",
-  "description": "This is the description of your NFT project",
-  "image": "https://hashlips/nft/1.png",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/1.png",
   "edition": 1,
-  "date": 1731990799975,
+  "date": 1632176579874,
   "attributes": [
-    { "trait_type": "Background", "value": "Black" },
-    { "trait_type": "Eyeball", "value": "Red" },
-    { "trait_type": "Eye color", "value": "Yellow" },
-    { "trait_type": "Iris", "value": "Small" },
-    { "trait_type": "Shine", "value": "Shapes" },
-    { "trait_type": "Bottom lid", "value": "Low" },
-    { "trait_type": "Top lid", "value": "Middle" }
+    {
+      "trait_type": "1-background",
+      "value": "astronaut"
+    },
+    {
+      "trait_type": "2-extra",
+      "value": "none"
+    },
+    {
+      "trait_type": "3-character",
+      "value": "Twee Pink Wings"
+    },
+    {
+      "trait_type": "4-prop",
+      "value": "soda"
+    },
+    {
+      "trait_type": "5-expression",
+      "value": "neutral"
+    },
+    {
+      "trait_type": "6-face",
+      "value": "gasmask"
+    }
   ],
   "compiler": "HashLips Art Engine"
 }
@@ -211,15 +240,31 @@ node utils/rarityData.js
 The output will look something like this:
 
 ```sh
-Trait type: Bottom lid
-{ trait: 'High', chance: '20', occurrence: '40' }
-{ trait: 'Low', chance: '40', occurrence: '60' }
-{ trait: 'Middle', chance: '40', occurrence: '0' }
+Trait type: 1-background
+{ trait: 'acryllica', chance: '16', occurrence: '8' }  
+{ trait: 'astronaut', chance: '16', occurrence: '20' } 
+{ trait: 'badacid', chance: '16', occurrence: '20' }   
+{ trait: 'bluespiral', chance: '16', occurrence: '28' }
+{ trait: 'dancefloor', chance: '16', occurrence: '8' } 
+{ trait: 'lightening', chance: '16', occurrence: '16' }
 
-Trait type: Top lid
-{ trait: 'High', chance: '30', occurrence: '20' }
-{ trait: 'Low', chance: '20', occurrence: '40' }
-{ trait: 'Middle', chance: '50', occurrence: '40' }
+Trait type: 2-extra
+{ trait: 'blue explosion', chance: '15', occurrence: '16' }
+{ trait: 'christmas lights', chance: '15', occurrence: '20' }
+{ trait: 'devil tail', chance: '5', occurrence: '4' }
+{ trait: 'dinosaurs', chance: '15', occurrence: '16' }
+{ trait: 'none', chance: '35', occurrence: '28' }
+{ trait: 'polaroids', chance: '10', occurrence: '12' }
+{ trait: 'spooky', chance: '5', occurrence: '4' }
 ```
 
-Hope you create some awesome artworks with this code 👄
+Hope you create some awesome artworks with this code 👄 Thank you Hashlips!
+Created by Hashlips, edited and articulated by ScrawnyViking
+
+When you're all finished with your NFT's here, and we update your metadata .json files to the correct CID that we're going to go over in the video...
+NOW, we want to get the DApp (Minting Station with web3 connect) attached to your contract that we're about to deploy.
+
+run this command to get ScrawnyVikings Minting Station DApp
+cd clone https://github.com/TomorrowWontExist/MintingStationDApp.git
+
+Follow the read me instructions or keep watching the video!
