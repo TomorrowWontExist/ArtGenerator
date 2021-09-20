@@ -17,7 +17,7 @@ To find out more please visit:
 # ScrawnyViking A-Z How to Launch your own NFT Collection using HashLips Art Engine 🔥
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
-![](https://gateway.pinata.cloud/ipfs/QmcX5m8zrDdaefWkoyvdLQXBoNyABkLdAhF886NSKVuDF2)
+![](https://gateway.pinata.cloud/ipfs/QmUvPLroxDvBoaGDrKh4qEYCTvfyK6hJduWrMwUUHF9Hor)
 Create generative art by using the canvas api and node js. Before you use the generation engine, make sure you have node.js and yarn installed.
 
 ## Installation 🛠️
