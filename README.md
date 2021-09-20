@@ -2,7 +2,7 @@
 
 ![](https://gateway.pinata.cloud/ipfs/QmeQTg75CRKSVUTnMnRM2RyRrBQDYT6G6oxzR4xmWSEH1U)
 
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
+All the code in these repos was created and explained by HashLips - Please go subscribe to him if you want to learn how to code your own DApps and do everything from scratch! ❤️
 
 To find out more please visit:
 
