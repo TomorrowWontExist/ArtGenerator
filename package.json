@@ -1,5 +1,5 @@
 {
-  "name": "hashlips_art_engine", // Hashlips is going to be a famouse Coder one day!
+  "name": "hashlips_art_engine",
   "version": "1.0.0",
   "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
   "main": "index.js",
