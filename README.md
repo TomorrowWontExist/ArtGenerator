@@ -274,4 +274,4 @@ run this command to get ScrawnyVikings Minting Station DApp<p/>
 cd clone https://github.com/TomorrowWontExist/MintingStationDApp.git
 ```
 <p/>
-once it's downloaded, open the folder from your terminal and Follow the read me instructions provided, or keep watching the video!
+once it's downloaded, open the folder from your terminal and Follow the read me instructions provided, or keep watching the video!!
