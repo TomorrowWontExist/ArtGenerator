@@ -16,7 +16,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 25, // 5 more like this, added eyewear
+    growEditionSizeTo: 25, // 15 more like this, added eyewear
     layersOrder: [
       { name: "1-background" },
       { name: "2-extra" },
@@ -28,7 +28,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 65, // 10 more, added headpiece
+    growEditionSizeTo: 65, // 40 more, added headpiece
     layersOrder: [
       { name: "1-background" },
       { name: "2-extra" },
