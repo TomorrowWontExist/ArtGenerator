@@ -269,7 +269,6 @@ Created by Hashlips, edited and articulated by ScrawnyViking
 When you're all finished with your NFT's here, and we update your metadata .json files to the correct CID that we're going to go over in the video...
 NOW, we want to get the DApp (Minting Station with web3 connect) attached to your contract that we're about to deploy.
 
-run this command to get ScrawnyVikings Minting Station DApp
-cd clone https://github.com/TomorrowWontExist/MintingStationDApp.git
-
-Follow the read me instructions or keep watching the video!
+run this command to get ScrawnyVikings Minting Station DApp<p/>
+cd clone https://github.com/TomorrowWontExist/MintingStationDApp.git<p/>
+once it's downloaded, open the folder from your terminal and Follow the read me instructions provided, or keep watching the video!
