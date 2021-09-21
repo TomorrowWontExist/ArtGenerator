@@ -59,7 +59,7 @@ _Example:_ If you were creating a portrait design, you might have a background, 
 ```js
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10, // Example to show you the inifite amount of possibilities
+    growEditionSizeTo: 10, // Example to show you the inifite amount of possibilities.
     layersOrder: [
       { name: "1-background" },
       { name: "2-extra" },
