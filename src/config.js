@@ -1,7 +1,7 @@
 const { MODE } = require("./blendMode.js");
 const description =
   "This is the description of your NFT project, remember to replace this";
-const baseUri = "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53";
+const baseUri = "https://gateway.pinata.cloud/ipfs/QmfRntAVjMJr2Sfqz1TS9C4MM4myjtFY2Puuhkb9LkRDRL";
 
 const layerConfigurations = [
   {
