@@ -274,7 +274,7 @@ NOW, we want to get the DApp (Minting Station with web3 connect) attached to you
 
 run this command to get ScrawnyVikings Minting Station DApp<p/>
 ```sh
-cd clone https://github.com/TomorrowWontExist/MintingStationDApp.git
+git clone https://github.com/TomorrowWontExist/MintingStationDApp.git
 ```
 <p/>
 once it's downloaded, open the folder from your terminal and Follow the read me instructions provided, or keep watching the video!!
