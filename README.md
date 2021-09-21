@@ -4,6 +4,9 @@
 
 All the code in these repos was created and explained by HashLips - Please go subscribe to him if you want to learn how to code your own DApps and do everything from scratch! ❤️
 
+If you're brand new and want a step by step dummy version tutorial of how to install and do everything, watch my last video here... We're going to go fast in this video and is for people who know how to run a terminal and type basic commands.
+https://www.youtube.com/watch?v=5s6-eMAOORQ
+
 To find out more please visit:
 
 [📺 YouTube](https://www.youtube.com/channel/UCesmc1HdFKXqmNFZwT0M9GQ)
